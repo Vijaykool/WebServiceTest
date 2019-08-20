@@ -19,7 +19,6 @@ public class TestCase01_RestAssured {
 		System.out.println("Body is: "+responseBody);
 		
 		int statusCode = response.getStatusCode();
-		System.out.println("Status code: " +statusCode);
 		
 		Assert.assertEquals(statusCode, 200);
 		
