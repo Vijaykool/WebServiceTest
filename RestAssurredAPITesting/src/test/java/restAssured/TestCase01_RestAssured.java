@@ -20,6 +20,7 @@ public class TestCase01_RestAssured {
 		
 		int statusCode = response.getStatusCode();
 		
+		System.out.println("Status code: "+statusCode);
 		Assert.assertEquals(statusCode, 200);
 		
 		String statusLine = response.getStatusLine();
